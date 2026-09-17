@@ -164,20 +164,24 @@ font-family: 'Montserrat', sans-serif;
  background-repeat: no-repeat;
  background-position: center center;
 }
+#flat .line-break {
+  height: 6px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0;
+}
+
 #flat .line-break-1 {
- background: linear-gradient(60deg, #FFF8CA, #6B0B0C, #CDE3E8);
- width: 100%;
- margin: 0 auto;
+  background: linear-gradient(60deg, #FFF8CA, #6B0B0C, #CDE3E8);
 }
+
 #flat .line-break-2 {
- background: linear-gradient(60deg, #6B0B0C, #CDE3E8, #FFF8CA);
- width: 100%;
- margin: 0 auto;
+  background: linear-gradient(60deg, #6B0B0C, #CDE3E8, #FFF8CA);
 }
+
 #flat .line-break-3 {
- background: linear-gradient(60deg, #CDE3E8, #FFF8CA, #6B0B0C);
- width: 100%;
- margin: 0 auto;
+  background: linear-gradient(60deg, #CDE3E8, #FFF8CA, #6B0B0C);
+}
 }
 @media screen and (max-width: 959px) and (min-width: 768px) {
  #flat .block {
