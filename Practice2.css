@@ -164,17 +164,17 @@ font-family: 'Montserrat', sans-serif;
  background-repeat: no-repeat;
  background-position: center center;
 }
-#flat .line-break-1 {
+#flat .line-1 {
  background: linear-gradient(60deg, #FFF8CA, #6B0B0C, #CDE3E8);
  width: 100%;
  margin: 0 auto;
 }
-#flat .line-break-2 {
+#flat .line-2 {
  background: linear-gradient(60deg, #6B0B0C, #CDE3E8, #FFF8CA);
  width: 100%;
  margin: 0 auto;
 }
-#flat .line-break-3 {
+#flat .line-3 {
  background: linear-gradient(60deg, #CDE3E8, #FFF8CA, #6B0B0C);
  width: 100%;
  margin: 0 auto;
