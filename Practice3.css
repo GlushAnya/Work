@@ -3,39 +3,32 @@
 ::-webkit-scrollbar {
   width: 13px;
 }
-
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 1px 1px 2px #E0E0E0;
   border: 11px solid transparent;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #646464;
   -webkit-box-shadow: inset 1px 1px 2px rgba(155, 155, 155, 0.4);
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: #aaaaaa;
 }
-
 ::-webkit-scrollbar-thumb:active {
   background: #888;
   -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
-
 html {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
 }
-
 body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
   background-color: #F3F0E8;
 }
-
 *{
   margin: 0;
   padding: 0;
@@ -43,11 +36,8 @@ body {
   text-decoration: none;
   list-style: none;
 }
-
-
 /*параметры для смартфонов*/
 @media only screen and (max-width:480px) {
-
 ul {
   position: fixed;
   display: block;
@@ -55,57 +45,45 @@ ul {
   margin-top: 35vw;
   z-index: 3;
 }
-
 .nav {
   position: fixed;
   display: block;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  color: #302c2d;
   transform: rotate(-90deg);
   margin-left: 0px;
   margin-top: 15vw;
   letter-spacing: 0.2vw;
   z-index: 3;
 }
-
 li {
   content:'';
   height: 40px;
   width: 5px;
   transition: width 0.3s ease-in-out;
 }
-
 li:hover  {
    transition: width 0.3s ease-in-out;
    width: 8.3vw;
 }
-
-
 /* вкладки */
-
 #one {
   background-color:#B83232;
 }
-
 #two {
   background-color:#6842A5;
 }
-
 #three {
   background-color:#D99A18;
 }
-
 #four {
   background-color:#3569B8;
 }
-
 #five {
   background-color:#318A62;
 }
-
-
 /* цветная врезка */
-
 section {
   position: relative;
   display: block;
@@ -113,7 +91,6 @@ section {
   height: 100vh;
   overflow: hidden;
 }
-
 section .cover {
   position: absolute;
   display: block;
@@ -121,10 +98,7 @@ section .cover {
   height: 100%;
   z-index: 1;
 }
-
-
 /* стартовая картинка */
-
 section .cover img #start{
   position: absolute;
   display: block;
@@ -135,10 +109,7 @@ section .cover img #start{
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
-
 /* основной контент */
-
 section .content {
   position: absolute;
   display: block;
@@ -146,11 +117,9 @@ section .content {
   height: 100%;
   z-index: 2;
 }
-
 section .text {
   width: 100%;
 }
-
 .leveler {
   position: relative;
   left: 50%;
@@ -158,7 +127,6 @@ section .text {
   -webkit-transform: translateZ(0px) translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-
 #start {
   position: absolute;
   padding-top: 70vw;
@@ -167,7 +135,6 @@ section .text {
   overflow: hidden;
   -webkit-animation: rotation 40s infinite linear;
 }
-
 @-webkit-keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
@@ -176,14 +143,10 @@ section .text {
         -webkit-transform: rotate(359deg);
     }
 }
-
-
 /* размер картинок */
-
 img {
   width: 100%;
 }
-
 #title {
   font-family: 'Montserrat', sans-serif;
   font-size: 9vw;
@@ -194,7 +157,6 @@ img {
   opacity: 1;
   animation: move 5s
 }
-
 @keyframes move {
     from {
       margin-top: 13vw;
@@ -205,7 +167,6 @@ img {
       opacity: 1;
     }
 }
-
 .uppertext {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.9vw;
@@ -213,7 +174,6 @@ img {
   margin-top: 5vw;
   margin-left: 17vw;
 }
-
 @keyframes expand {
     from {
       width: 0vw;
@@ -224,10 +184,7 @@ img {
       opacity: 1;
     }
 }
-
-
 /* скроллинг */
-
 .scroll {
   position: relative;
   font-family: 'Montserrat', sans-serif;
@@ -238,7 +195,6 @@ img {
   margin-left: 30vw;
   margin-top: 70vw;
 }
-
 .square {
   position: relative;
   content:'';
@@ -246,7 +202,6 @@ img {
   height: 120vh;
   width: 100vh;
 }
-
 .paragraph {
   width: 70vw;
   margin-left: 18vw;
@@ -257,53 +212,36 @@ img {
   letter-spacing: 0.3vw;
   color: black;
 }
-
-
 /* градиенты */
-
 #one2 {
   background: linear-gradient(to bottom right, #B83232, #E6A23C);
 }
-
 #two2 {
   background: linear-gradient(to bottom right, #6842A5, #A878C5);
 }
-
 #three2 {
   background: linear-gradient(to bottom right, #D99A18, #F1D36B);
 }
-
 #four2 {
   background: linear-gradient(to bottom right, #3569B8, #75A7E8);
 }
-
 #five2 {
   background: linear-gradient(to bottom right, #318A62, #7AC99A);
 }
-
-
 /* постер */
-
 .poster {
   width: 70vw;
   margin-top: 4vw;
   margin-left: 18vw;
   z-index: 1;
 }
-
-
 /* цвет текста в мобильной версии */
-
 #mobiletext {
     color: #F3F0E8;
 }
-
 }
-
-
 /*параметры для десктопа*/
 @media only screen and (min-width:990px) {
-
 ul {
   position: fixed;
   display: block;
@@ -311,7 +249,6 @@ ul {
   margin-top: -6vw;
   z-index: 3;
 }
-
 .nav {
   position: fixed;
   display: block;
@@ -323,45 +260,33 @@ ul {
   letter-spacing: 0.2vw;
   z-index: 3;
 }
-
 li {
   content:'';
   height: 40px;
   width: 5px;
   transition: width 0.3s ease-in-out;
 }
-
 li:hover  {
    transition: width 0.3s ease-in-out;
    width: 80px;
 }
-
-
 /* вкладки */
-
 #one {
   background-color:#B83232;
 }
-
 #two {
   background-color:#6842A5;
 }
-
 #three {
   background-color:#D99A18;
 }
-
 #four {
   background-color:#3569B8;
 }
-
 #five {
   background-color:#318A62;
 }
-
-
 /* дальнейшие параметры стилей */
-
 section {
   position: relative;
   margin-left: -10px;
@@ -370,7 +295,6 @@ section {
   height: 60vw;
   overflow: hidden;
 }
-
 section .cover {
   position: absolute;
   display: block;
@@ -378,7 +302,6 @@ section .cover {
   height: 100%;
   z-index: 1;
 }
-
 section .cover img #start {
   position: absolute;
   display: block;
@@ -389,7 +312,6 @@ section .cover img #start {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
 section .content {
   position: absolute;
   display: block;
@@ -397,11 +319,9 @@ section .content {
   height: 100%;
   z-index: 2;
 }
-
 section .text {
   width: 100%;
 }
-
 .leveler {
   position: relative;
   left: 50%;
@@ -409,7 +329,6 @@ section .text {
   -webkit-transform: translateZ(0px) translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-
 #start {
   position: absolute;
   padding-top: -9vw;
@@ -418,7 +337,6 @@ section .text {
   overflow: hidden;
   -webkit-animation: rotation 180s infinite linear;
 }
-
 @-webkit-keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
@@ -427,11 +345,9 @@ section .text {
         -webkit-transform: rotate(359deg);
     }
 }
-
 img {
   width: 100%;
 }
-
 #title {
   position: fixed;
   font-family: 'Montserrat', sans-serif;
@@ -443,7 +359,6 @@ img {
   opacity: 1;
   animation: move 3s
 }
-
 @keyframes move {
     from {
       margin-left: 8vw;
@@ -454,7 +369,6 @@ img {
       opacity: 1;
     }
 }
-
 .uppertext {
   font-family: 'Montserrat', sans-serif;
   font-size: 1vw;
@@ -462,7 +376,6 @@ img {
   margin-top: 2.63vw;
   margin-left: 10.1vw;
 }
-
 @keyframes expand {
     from {
       width: 0vw;
@@ -473,7 +386,6 @@ img {
       opacity: 1;
     }
 }
-
 .scroll {
   position: relative;
   font-family: 'Montserrat', sans-serif;
@@ -484,7 +396,6 @@ img {
   margin-left: 45vw;
   margin-top: 20vw;
 }
-
 .square {
   position: relative;
   content:'';
@@ -493,7 +404,6 @@ img {
   height: 120vh;
   width: 300vh;
 }
-
 .paragraph {
   float: left;
   width: 29.28vw;
@@ -505,33 +415,23 @@ img {
   letter-spacing: 0.2vw;
   color: black;
 }
-
-
 /* градиенты */
-
 #one2 {
   background: linear-gradient(to bottom right, #B83232, #E6A23C);
 }
-
 #two2 {
   background: linear-gradient(to bottom right, #6842A5, #A878C5);
 }
-
 #three2 {
   background: linear-gradient(to bottom right, #D99A18, #F1D36B);
 }
-
 #four2 {
   background: linear-gradient(to bottom right, #3569B8, #75A7E8);
 }
-
 #five2 {
   background: linear-gradient(to bottom right, #318A62, #7AC99A);
 }
-
-
 /* постер */
-
 .poster {
   overflow: hidden;
   width: 350px;
@@ -540,5 +440,4 @@ img {
   z-index: 1;
   filter: drop-shadow(4px 10px 15px #F3F0E8);
 }
-
 }
