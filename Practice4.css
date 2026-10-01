@@ -30,7 +30,7 @@ img {
 #text {
   z-index: 0;
   padding: 18px 38px;
-  color: #000000;
+  color: #000000 !important;
 }
 
 .nav {
