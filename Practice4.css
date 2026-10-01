@@ -32,6 +32,10 @@ img {
   padding: 18px 38px;
 }
 
+#text p {
+  color: #000000;
+}
+
 .nav {
   z-index: 9;
   position: fixed;
@@ -239,7 +243,8 @@ img {
   font-family: 'Montserrat', serif;
   font-size: 50px;
   line-height: 28px;
-  color: #7F42E1;
+  color: #ffffff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
   transition: .3s ease-in-out;
 }
 
