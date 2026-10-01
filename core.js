@@ -1,3 +1,5 @@
+impot $ from 'jQuery'
+
 define( [
 	"./var/arr",
 	"./var/document",
