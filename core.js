@@ -1,4 +1,4 @@
-impot $ from 'jQuery'
+import $ from 'jQuery'
 
 define( [
 	"./var/arr",
