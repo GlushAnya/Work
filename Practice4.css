@@ -24,7 +24,7 @@ html, body {
 }
 
 img {
-  width: 30%;
+  width: 95%;
 }
 
 #text {
@@ -218,7 +218,7 @@ img {
 }
 
 .reveal {
-  height: 900px !important;
+  height: 1000px !important;
 }
 
 #nav-container {
