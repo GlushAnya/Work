@@ -209,7 +209,7 @@ img {
 #menu-overlay {
   position: absolute;
   height: 0;
-  width: 95%;
+  width: 30%;
   background: url("https://raw.githack.com/GlushAnya/Work/refs/heads/main/image%2010.png");
   left: 0;
   top: 0;
@@ -218,7 +218,7 @@ img {
 }
 
 .reveal {
-  height: 600px !important;
+  height: 700px !important;
 }
 
 #nav-container {
