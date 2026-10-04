@@ -125,7 +125,7 @@ img {
 }
 
 .loader2 {
-  color: #000;
+  color: #ffffff;
   border: 1px solid rgba(255, 255, 240) !important;
 }
 
@@ -211,6 +211,8 @@ img {
   height: 0;
   width: 95%;
   background: url("https://raw.githack.com/GlushAnya/Work/refs/heads/main/image%2010.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   left: 0;
   top: 0;
   transition: .5s ease-in;
@@ -218,7 +220,7 @@ img {
 }
 
 .reveal {
-  height: 700px !important;
+  height: var(--img-h, 700px) !important;
 }
 
 #nav-container {
