@@ -18,7 +18,7 @@ body {
   height: 530px;
   border-radius: 15px;
   box-shadow: 0 15px 20px 10px gray;
-  background-image: url ("https://raw.githubusercontent.com/GlushAnya/Work/refs/heads/main/%D1%84%D0%BE%D0%BD2.jpg")
+  background-image: url("https://raw.githubusercontent.com/GlushAnya/Work/refs/heads/main/%D1%84%D0%BE%D0%BD2.jpg")
 }
 
 .player input[type=range] {
