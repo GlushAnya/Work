@@ -7,7 +7,7 @@ body {
   background-color: #f5e0e5;
   position: relative;
   font-family: "Roboto", sans-serif;
-  background-image:https://raw.githubusercontent.com/GlushAnya/Work/refs/heads/main/%D1%84%D0%BE%D0%BD1.jpg
+  background-image: url(https://raw.githubusercontent.com/GlushAnya/Work/refs/heads/main/%D1%84%D0%BE%D0%BD1.jpg)
 }
 .player {
   position: absolute;
@@ -18,7 +18,7 @@ body {
   height: 530px;
   border-radius: 15px;
   box-shadow: 0 15px 20px 10px gray;
-  background-image:https://raw.githubusercontent.com/GlushAnya/Work/refs/heads/main/c9c0bc513b79be784574d8260e69db1a.jpg
+  background-image: url (https://raw.githubusercontent.com/GlushAnya/Work/refs/heads/main/c9c0bc513b79be784574d8260e69db1a.jpg)
 }
 
 .player input[type=range] {
